@@ -1,0 +1,24 @@
+#include <stdio.h>
+void auto_show_flags(FILE *fp) {
+   fprintf (fp,"\n");
+   fprintf (fp,"CPP = /usr/bin/cpp\n");
+   fprintf (fp,"CC  = /home/kerex/private_packages/mpich-3.1.4/build_head_node_gcc/bin/mpicc\n");
+   fprintf (fp,"CXX = /home/kerex/private_packages/mpich-3.1.4/build_head_node_gcc/bin/mpicxx\n");
+   fprintf (fp,"FC  = /home/kerex/private_packages/mpich-3.1.4/build_head_node_gcc/bin/mpifort\n");
+   fprintf (fp,"F90 = /home/kerex/private_packages/mpich-3.1.4/build_head_node_gcc/bin/mpifort\n");
+   fprintf (fp,"LD  = /home/kerex/private_packages/mpich-3.1.4/build_head_node_gcc/bin/mpicxx\n");
+   fprintf (fp,"\n");
+   fprintf (fp,"DEFINES = -DLINUX -DH5_USE_16_API   -D__max_subgrids=100000 -D__max_baryons=30 -D__max_cpu_per_node=36 -D__memory_pool_size=100000 -DINITS64 -DSMALL_INTS -DCONFIG_PINT_4 -DIO_32   -DNEW_PROBLEM_TYPES -DUSE_MPI   -DCONFIG_PFLOAT_8 -DCONFIG_BFLOAT_8  -DUSE_HDF5_GROUPS   -DTRANSFER   -DNEW_GRID_IO -DFAST_SIB      -DENZO_PERFORMANCE  -DUSE_GRACKLE  -DSAB\n");
+   fprintf (fp,"\n");
+   fprintf (fp,"INCLUDES = -I/home/kerex/private_packages/hdf5-1.8.20/build_gcc/include  -I/home/kerex/private_packages/mpich-3.1.4/build_head_node_gcc/include       -I/home/kerex/private_packages/grackle/build_gcc/include    -I.\n");
+   fprintf (fp,"\n");
+   fprintf (fp,"CPPFLAGS = -P -traditional \n");
+   fprintf (fp,"CFLAGS   =  -O3 -g\n");
+   fprintf (fp,"CXXFLAGS =  -O3 -g\n");
+   fprintf (fp,"FFLAGS   = -fno-second-underscore -ffixed-line-length-132 -O3 -g\n");
+   fprintf (fp,"F90FLAGS = -fno-second-underscore -O3 -g\n");
+   fprintf (fp,"LDFLAGS  =  -O3 -g\n");
+   fprintf (fp,"\n");
+   fprintf (fp,"LIBS     = -L/home/kerex/private_packages/hdf5-1.8.20/build_gcc/lib -lhdf5 -lz  -lgfortran   -L/home/kerex/private_packages/mpich-3.1.4/build_head_node_gcc/lib -lmpi        -L/home/kerex/private_packages/grackle/build_gcc/lib -lgrackle\n");
+   fprintf (fp,"\n");
+}

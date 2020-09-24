@@ -1,0 +1,167 @@
+Making enzo on
+/home/kerex/private_packages/enzo-dev/src/enzo
+make[1]: Entering directory `/home/kerex/private_packages/enzo-dev/src/enzo'
+
+   MACHINE: Generic Ubuntu 8.04
+   MACHINE-NAME: linux-mpich
+
+   PARAMETER_MAX_SUBGRIDS  [max-subgrids-###]                : 100000
+   PARAMETER_MAX_BARYONS  [max-baryons-###]                  : 30
+   PARAMETER_MAX_TASKS_PER_NODE  [max-tasks-per-node-###]    : 8
+   PARAMETER_MEMORY_POOL_SIZE  [memory-pool-###]             : 100000
+
+   CONFIG_PRECISION  [precision-{32,64}]                     : 64
+   CONFIG_PARTICLES  [particles-{32,64,128}]                 : 64
+   CONFIG_INTEGERS  [integers-{32,64}]                       : 64
+   CONFIG_PARTICLE_IDS  [particle-id-{32,64}]                : 64
+   CONFIG_INITS  [inits-{32,64}]                             : 64
+   CONFIG_IO  [io-{32,64}]                                   : 32
+   CONFIG_USE_MPI  [use-mpi-{yes,no}]                        : yes
+   CONFIG_TASKMAP  [taskmap-{yes,no}]                        : no
+   CONFIG_PACKED_AMR  [packed-amr-{yes,no}]                  : yes
+   CONFIG_PACKED_MEM  [packed-mem-{yes,no}]                  : no
+   CONFIG_LCAPERF  [lcaperf-{yes,no}]                        : no
+   CONFIG_PAPI  [papi-{yes,no}]                              : no
+   CONFIG_PYTHON  [python-{yes,no}]                          : no
+   CONFIG_NEW_PROBLEM_TYPES  [new-problem-types-{yes,no}]    : no
+   CONFIG_ECUDA  [cuda-{yes,no}]                             : no
+   CONFIG_OOC_BOUNDARY  [ooc-boundary-{yes,no}]              : no
+   CONFIG_ACCELERATION_BOUNDARY  [acceleration-boundary-{yes,no}]              : yes
+   CONFIG_OPT  [opt-{warn,debug,cudadebug,high,aggressive}]  : debug
+   CONFIG_TESTING  [testing-{yes,no}]                        : no
+   CONFIG_PHOTON  [photon-{yes,no}]                          : yes
+   CONFIG_HYPRE  [hypre-{yes,no}]                            : no
+   CONFIG_EMISSIVITY  [emissivity-{yes,no}]                  : no
+   CONFIG_USE_HDF4  [use-hdf4-{yes,no}]                      : no
+   CONFIG_NEW_GRID_IO  [newgridio-{yes,no}]                  : yes
+   CONFIG_BITWISE_IDENTICALITY  [bitwise-{yes,no}]           : no
+   CONFIG_FAST_SIB  [fastsib-{yes,no}]                       : yes
+   CONFIG_GRAVITY_4S  [gravity-4s-{yes,no}]                  : no
+   CONFIG_ENZO_PERFORMANCE  [enzo-performance-{yes,no}]      : yes
+   CONFIG_GRACKLE  [grackle-{yes,no}]                        : no
+   CONFIG_LOG2ALLOC  [log2alloc-{yes,no}]                    : no
+
+make[1]: Leaving directory `/home/kerex/private_packages/enzo-dev/src/enzo'
+make[1]: Entering directory `/home/kerex/private_packages/enzo-dev/src/enzo'
+
+ *** Execute 'gmake clean' before rebuilding executables ***
+
+make[1]: Leaving directory `/home/kerex/private_packages/enzo-dev/src/enzo'
+Configure complete.
+
+ *** Execute 'gmake clean' before rebuilding executables ***
+
+   MACHINE: Generic Ubuntu 8.04
+   MACHINE-NAME: linux-openmpi
+
+
+ *** Execute 'gmake clean' before rebuilding executables ***
+
+   CONFIG_PRECISION  [precision-{32,64}]                     : 64
+
+   CONFIG_INTEGERS  [integers-{32,64}]                       : 32
+
+   CONFIG_PARTICLE_IDS  [particle-id-{32,64}]                : 32
+
+   PARAMETER_MAX_BARYONS  [max-baryons-###]                  : 30
+
+   CONFIG_OPT  [opt-{warn,debug,cudadebug,high,aggressive}]  : aggressive
+
+   CONFIG_LCAPERF  [lcaperf-{yes,no}]                        : no
+
+   PARAMETER_MAX_TASKS_PER_NODE  [max-tasks-per-node-###]    : 36
+
+   CONFIG_GRACKLE  [grackle-{yes,no}]                        : yes
+
+   CONFIG_NEW_PROBLEM_TYPES  [new-problem-types-{yes,no}]    : yes
+
+
+   MACHINE: Generic Ubuntu 8.04
+   MACHINE-NAME: linux-openmpi
+
+   PARAMETER_MAX_SUBGRIDS  [max-subgrids-###]                : 100000
+   PARAMETER_MAX_BARYONS  [max-baryons-###]                  : 30
+   PARAMETER_MAX_TASKS_PER_NODE  [max-tasks-per-node-###]    : 36
+   PARAMETER_MEMORY_POOL_SIZE  [memory-pool-###]             : 100000
+
+   CONFIG_PRECISION  [precision-{32,64}]                     : 64
+   CONFIG_PARTICLES  [particles-{32,64,128}]                 : 64
+   CONFIG_INTEGERS  [integers-{32,64}]                       : 32
+   CONFIG_PARTICLE_IDS  [particle-id-{32,64}]                : 32
+   CONFIG_INITS  [inits-{32,64}]                             : 64
+   CONFIG_IO  [io-{32,64}]                                   : 32
+   CONFIG_USE_MPI  [use-mpi-{yes,no}]                        : yes
+   CONFIG_TASKMAP  [taskmap-{yes,no}]                        : no
+   CONFIG_PACKED_AMR  [packed-amr-{yes,no}]                  : yes
+   CONFIG_PACKED_MEM  [packed-mem-{yes,no}]                  : no
+   CONFIG_LCAPERF  [lcaperf-{yes,no}]                        : no
+   CONFIG_PAPI  [papi-{yes,no}]                              : no
+   CONFIG_PYTHON  [python-{yes,no}]                          : no
+   CONFIG_NEW_PROBLEM_TYPES  [new-problem-types-{yes,no}]    : yes
+   CONFIG_ECUDA  [cuda-{yes,no}]                             : no
+   CONFIG_OOC_BOUNDARY  [ooc-boundary-{yes,no}]              : no
+   CONFIG_ACCELERATION_BOUNDARY  [acceleration-boundary-{yes,no}]              : yes
+   CONFIG_OPT  [opt-{warn,debug,cudadebug,high,aggressive}]  : aggressive
+   CONFIG_TESTING  [testing-{yes,no}]                        : no
+   CONFIG_PHOTON  [photon-{yes,no}]                          : yes
+   CONFIG_HYPRE  [hypre-{yes,no}]                            : no
+   CONFIG_EMISSIVITY  [emissivity-{yes,no}]                  : no
+   CONFIG_USE_HDF4  [use-hdf4-{yes,no}]                      : no
+   CONFIG_NEW_GRID_IO  [newgridio-{yes,no}]                  : yes
+   CONFIG_BITWISE_IDENTICALITY  [bitwise-{yes,no}]           : no
+   CONFIG_FAST_SIB  [fastsib-{yes,no}]                       : yes
+   CONFIG_GRAVITY_4S  [gravity-4s-{yes,no}]                  : no
+   CONFIG_ENZO_PERFORMANCE  [enzo-performance-{yes,no}]      : yes
+   CONFIG_GRACKLE  [grackle-{yes,no}]                        : yes
+   CONFIG_LOG2ALLOC  [log2alloc-{yes,no}]                    : no
+
+
+CPP = /usr/bin/cpp
+CC  = /home/kerex/private_packages/openmpi-4.0.0/build_gcc/bin/mpicc
+CXX = /home/kerex/private_packages/openmpi-4.0.0/build_gcc/bin/mpicxx
+FC  = /home/kerex/private_packages/openmpi-4.0.0/build_gcc/bin/mpifort
+F90 = /home/kerex/private_packages/openmpi-4.0.0/build_gcc/bin/mpifort
+LD  = /home/kerex/private_packages/openmpi-4.0.0/build_gcc/bin/mpicxx
+
+DEFINES = -DLINUX -DH5_USE_16_API   -D__max_subgrids=100000 -D__max_baryons=30 -D__max_cpu_per_node=36 -D__memory_pool_size=100000 -DINITS64 -DSMALL_INTS -DCONFIG_PINT_4 -DIO_32   -DNEW_PROBLEM_TYPES -DUSE_MPI   -DCONFIG_PFLOAT_8 -DCONFIG_BFLOAT_8  -DUSE_HDF5_GROUPS   -DTRANSFER   -DNEW_GRID_IO -DFAST_SIB      -DENZO_PERFORMANCE  -DUSE_GRACKLE  -DSAB
+
+INCLUDES = -I/home/kerex/private_packages/hdf5-1.8.20/build_gcc/include  -I/home/kerex/private_packages/openmpi-4.0.0/build_gcc/include       -I/home/kerex/private_packages/grackle/build_gcc/include    -I.
+
+CPPFLAGS = -P -traditional 
+CFLAGS   =  -O3 -g
+CXXFLAGS =  -O3 -g
+FFLAGS   = -fno-second-underscore -ffixed-line-length-132 -O3 -g
+F90FLAGS = -fno-second-underscore -O3 -g
+LDFLAGS  =  -O3 -g
+
+LIBS     = -L/home/kerex/private_packages/hdf5-1.8.20/build_gcc/lib -lhdf5 -lz  -lifcore -lifport -limf -lstdc++    -L/home/kerex/private_packages/openmpi-4.0.0/build_gcc/lib -lmpi        -L/home/kerex/private_packages/grackle/build_gcc/lib -lgrackle
+
+
+Updating DEPEND
+Compiling enzo.C
+Compiling MHDLoopInit.C
+Compiling Grid_MHDLoopInitGrid.C
+Compiling acml_st1.F
+Compiling ActiveParticle.C
+Compiling ActiveParticleDepositMass.C
+Compiling ActiveParticleFinalize.C
+Compiling ActiveParticleFindAll.C
+Compiling ActiveParticleInitialize.C
+Compiling ActiveParticleResetAccelerations.C
+Compiling ActiveParticleRoutines.C
+Compiling ActiveParticle_AccretingParticle.C
+Compiling ActiveParticle_CenOstriker.C
+Compiling ActiveParticle_DisableParticle.C
+Compiling ActiveParticle_GalaxyParticle.C
+Compiling ActiveParticle_Kravtsov.C
+Compiling ActiveParticle_MirrorToParticle.C
+Compiling ActiveParticle_PopIII.C
+Compiling ActiveParticle_RadiationParticle.C
+Compiling ActiveParticle_Skeleton.C
+Compiling ActiveParticle_SmartStar.C
+Compiling ActiveParticle_SphereContained.C
+Compiling ActiveParticle_SpringelHernquist.C
+Compiling AdiabaticExpansionInitialize.C
+Compiling AdjustRefineRegion.C
+Compiling AdjustMustRefineParticlesRefineToLevel.C
+Compiling AMRH5writer.C
