@@ -4,19 +4,19 @@ This version of Enzo aims at implanting a gas clump in AgoraRestart from a param
 Currently, the morphology of a gas clump is a sphere of a uniform density. If needed, I will add more.
 
 ## Parameters 
-`AgoraRestartGasClumpOn`\
-Set 1 to insert a gas clump. Default: 0 (FALSE)\
-`AgoraRestartGasClumpCenter`\
-This is the position of the gas clump with respect to the center of the galaxy or simulation i.e. (0.5, 0.5, 0.5). There is no default value.\
-`AgoraRestartGasClumpVelocity`\
-The initial velocity of the gas clump. There is no default value.\
-`AgoraRestartGasClumpMass`\
-The mass of the gas clump. There is no default value.\
-`AgoraRestartGasClumpRadius`\
-The radius of the gas clump. There is no default value.\
-`AgoraRestartPassiveScalarOn`\
+`AgoraRestartGasClumpOn`  
+Set 1 to insert a gas clump. Default: 0 (FALSE)  
+`AgoraRestartGasClumpCenter`  
+This is the position of the gas clump with respect to the center of the galaxy or simulation i.e. (0.5, 0.5, 0.5). There is no default value.  
+`AgoraRestartGasClumpVelocity`  
+The initial velocity of the gas clump. There is no default value.  
+`AgoraRestartGasClumpMass`  
+The mass of the gas clump. There is no default value.  
+`AgoraRestartGasClumpRadius`  
+The radius of the gas clump. There is no default value.  
+`AgoraRestartPassiveScalarOn`
 
-Note that every parameter should be given in code unit. You can simply use yt to do this. 
+Note that every parameter should be given in code unit. You can simply use yt to do such conversion. 
 For example, 
 ```
 import yt
