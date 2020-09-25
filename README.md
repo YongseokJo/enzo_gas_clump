@@ -14,7 +14,8 @@ The initial velocity of the gas clump. There is no default value.
 The mass of the gas clump. There is no default value.  
 `AgoraRestartGasClumpRadius`  
 The radius of the gas clump. There is no default value.  
-`AgoraRestartPassiveScalarOn`
+`AgoraRestartPassiveScalarOn`  
+Set 1 to paint the gas clump with passive scalar. With this, in yt, two extra fields will be created: PassiveScalar1 for the gas clump and PassiveScalar2 for the rest (mainly the target galaxy). Default: 0 (FALSE)  
 
 Note that every parameter should be given in code unit. You can simply use yt to do such conversion. 
 For example, 
