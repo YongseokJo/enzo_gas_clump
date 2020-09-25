@@ -1,4 +1,4 @@
-## enzo_gas_clump
+## ENZO With Gas Clump
 
 This version of Enzo aims at implanting a gas clump in AgoraRestart from a parameter file. This does not require any further compilations.
 Currently, the morphology of a gas clump is a sphere of a uniform density. If needed, I will add more.
