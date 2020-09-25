@@ -28,10 +28,10 @@ print(radius.in_units("code_length")
 
 ## Example
 
-`AgoraRestartGasClumpOn`                        = 1\
-`AgoraRestartGasClumpCenter`                     = 0.015258786492942567 0 0   // 20 0 0 kpc from the ceter of the simulation\
-`AgoraRestartGasClumpVelocity`                   = -0.08 0 0\
-`AgoraRestartGasClumpMass`                       = 0.09996560555024785     // 1e8 Msun\
-`AgoraRestartGasClumpRadius`                     = 0.0007629393246471283   // 1 kpc\
-`AgoraRestartPassiveScalarOn`                    = 1\
+`AgoraRestartGasClumpOn`                         = 1  
+`AgoraRestartGasClumpCenter`                     = 0.015258786492942567 0 0   // 20 0 0 kpc from the ceter of the simulation  
+`AgoraRestartGasClumpVelocity`                   = -0.08 0 0  
+`AgoraRestartGasClumpMass`                       = 0.09996560555024785     // 1e8 Msun  
+`AgoraRestartGasClumpRadius`                     = 0.0007629393246471283   // 1 kpc  
+`AgoraRestartPassiveScalarOn`                    = 1  
 
