@@ -23,7 +23,7 @@ For example,
 import yt
 ds = yt.load("DD0000/DD0000")
 radius = ds.quan(1, "kpc")
-print(radius.in_units("code_length")
+print(radius.in_units("code_length"))
 ```
 
 
