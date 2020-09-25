@@ -5,7 +5,7 @@ Currently, the morphology of a gas clump is a sphere of a uniform density. If ne
 
 ## Parameters 
 `AgoraRestartGasClumpOn`\
-Set 1 to insert a gas clump. Default: 0 (FALSE)  \
+Set 1 to insert a gas clump. Default: 0 (FALSE)\
 `AgoraRestartGasClumpCenter`\
 This is the position of the gas clump with respect to the center of the galaxy or simulation i.e. (0.5, 0.5, 0.5). There is no default value.\
 `AgoraRestartGasClumpVelocity`\
@@ -14,7 +14,7 @@ The initial velocity of the gas clump. There is no default value.\
 The mass of the gas clump. There is no default value.\
 `AgoraRestartGasClumpRadius`\
 The radius of the gas clump. There is no default value.\
-`AgoraRestartPassiveScalarOn`  \
+`AgoraRestartPassiveScalarOn`\
 
 Note that every parameter should be given in code unit. You can simply use yt to do this. 
 For example, 
