@@ -185,13 +185,11 @@ public:
     this->HaloMetallicity     = 0.0;
     this->RefineAtStart       = TRUE;
 
-		printf("1\n");
     // set this from global data (kind of a hack)
     TestProblemData.MultiSpecies = MultiSpecies;
     TestProblemData.PassiveScalarOn = FALSE;
 		this->GasClumpOn = FALSE;
 
-		printf("2\n");
 
     /* read input from file */
     while (fgets(line, MAX_LINE_LENGTH, fptr) != NULL)
@@ -272,11 +270,6 @@ public:
 
     } // end input from parameter file
 
-    if(debug)
-    {
-      printf("3\n");
-      //fflush(stdout);
-    }
 
     // Read in circular velocity table
 
@@ -294,7 +287,6 @@ public:
     float dummy_b_field[3] = {1e-20, 1e-20, 1e-20}; // Only set if HydroMethod = mhd_rk
 
 
-		printf("4\n");
 
     if (this->InitializeUniformGrid(
 	  TopGrid.GridData, dummy_density, dummy_total_energy,
@@ -303,7 +295,6 @@ public:
       ENZO_FAIL("Error in InitializeUniformGrid");
     }
 
-		printf("5\n");
 
     this->InitializeGrid(TopGrid.GridData, TopGrid, MetaData);
 
@@ -528,10 +519,6 @@ int InitializeGrid(grid *thisgrid_orig, HierarchyEntry &TopGrid,
 		//fprintf(stderr,"%d\n", ExtraNum);
 	}
 
-	fprintf(stderr, "Gas Clump On\n");
-	fprintf(stderr, "GCMass: %f\n", GCMass);
-	fprintf(stderr, "this:%d\n", this->GasClumpOn);
-	fprintf(stderr, "no this:%d\n", GasClumpOn);
 	if (this->GasClumpOn) {
 		this->GCDensity = 3*this->GCMass/(4*pi*this->GCRadius*this->GCRadius*this->GCRadius);
 	}

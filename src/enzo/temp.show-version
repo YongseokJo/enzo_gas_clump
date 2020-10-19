@@ -1,4 +1,8 @@
 
-Git Branch   master
-Git Revision d84c2415b7914c7bab729c2d818b5af8c85c1918
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Git Branch   
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Git Revision 
 
